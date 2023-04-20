@@ -40,7 +40,7 @@ const Header = () => {
                 {
                   !isLogin && (
                     <>
-                    <Button sx={{margin:"1" ,color :"white"}} LinkComponent={Link} to = "/login">LOGIN</Button>
+                    <Button sx={{margin:"1" ,color :"white"}} LinkComponent={Link} to = "/">LOGIN</Button>
                     <Button sx={{margin:"1" ,color :"white"}} LinkComponent={Link} to = "/register">REGISTER</Button>
                     </>
                   )
